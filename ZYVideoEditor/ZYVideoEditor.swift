@@ -124,7 +124,7 @@ class ZYVideoEditor: NSObject {
                 changeVideoSize(asset: asset,passThroughLayer: fromLayer)
                 changeVideoSize(asset: clips[index + 1],passThroughLayer: toLayer)
                 
-                videoTransition(fromLayer: fromLayer,toLayer: toLayer, timeRange: transitionTimeRanges[index])
+                videoTransition(fromLayer: fromLayer,toLayer: toLayer,asset: asset, timeRange: transitionTimeRanges[index])
                 
                 transitionInstruction.layerInstructions = [fromLayer, toLayer]
                 instructions.append(transitionInstruction)
@@ -133,7 +133,9 @@ class ZYVideoEditor: NSObject {
         muVideoComposition.instructions = instructions as! [AVVideoCompositionInstructionProtocol]
     }
     
-    func videoTransition(fromLayer:AVMutableVideoCompositionLayerInstruction,toLayer:AVMutableVideoCompositionLayerInstruction,timeRange:CMTimeRange) {
+    func videoTransition(fromLayer:AVMutableVideoCompositionLayerInstruction,toLayer:AVMutableVideoCompositionLayerInstruction,asset:AVAsset,timeRange:CMTimeRange) {
+        let oriVideoTrack = asset.tracks(withMediaType: .video).first
+        let natureSize = (oriVideoTrack?.naturalSize)!
         switch transitionType {
         case .Opacity:
             fromLayer.setOpacityRamp(fromStartOpacity: 1.0, toEndOpacity: 0.0, timeRange: timeRange)
@@ -141,7 +143,13 @@ class ZYVideoEditor: NSObject {
         case .SwipeLeft:
             fromLayer.setCropRectangleRamp(fromStartCropRectangle: CGRect.init(origin: .zero, size: videoSize), toEndCropRectangle: CGRect.init(origin: .zero, size: CGSize.init(width: 0, height: videoSize.height)), timeRange: timeRange)
         default:
-            fromLayer.setCropRectangleRamp(fromStartCropRectangle: CGRect.init(origin: .zero, size:videoSize), toEndCropRectangle: CGRect.init(origin: .zero, size:  CGSize.init(width: videoSize.width, height: 0)), timeRange: timeRange)
+            if degressFromVideo(asset: asset) == 90{
+                fromLayer.setCropRectangleRamp(fromStartCropRectangle: CGRect.init(origin: .zero, size: videoSize), toEndCropRectangle: CGRect.init(origin: .zero, size: CGSize.init(width: 0, height: videoSize.height)), timeRange: timeRange)
+            }else{
+                let width = natureSize.width > videoSize.width ? natureSize.width : videoSize.width
+                fromLayer.setCropRectangleRamp(fromStartCropRectangle: CGRect.init(origin: .zero, size:CGSize.init(width: width, height: videoSize.height)), toEndCropRectangle: CGRect.init(origin: .zero, size:  CGSize.init(width: width, height: 0)), timeRange: timeRange)
+            }
+            
         }
     }
     

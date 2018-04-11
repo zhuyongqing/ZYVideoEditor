@@ -1,0 +1,359 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EFAD7485207DEFA600590366 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD7484207DEFA600590366 /* AppDelegate.swift */; };
+		EFAD7487207DEFA600590366 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD7486207DEFA600590366 /* ViewController.swift */; };
+		EFAD748A207DEFA600590366 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAD7488207DEFA600590366 /* Main.storyboard */; };
+		EFAD748C207DEFA800590366 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFAD748B207DEFA800590366 /* Assets.xcassets */; };
+		EFAD748F207DEFA800590366 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EFAD748D207DEFA800590366 /* LaunchScreen.storyboard */; };
+		EFAD7497207DEFB900590366 /* ZYVideoEditor.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAD7496207DEFB900590366 /* ZYVideoEditor.swift */; };
+		EFAD749A207DF07500590366 /* test2.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = EFAD7498207DF07400590366 /* test2.MP4 */; };
+		EFAD749B207DF07500590366 /* test1.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = EFAD7499207DF07500590366 /* test1.MP4 */; };
+		EFAD749D207DF07C00590366 /* test3.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = EFAD749C207DF07C00590366 /* test3.MP4 */; };
+		EFAD749F207DF90D00590366 /* test4.MP4 in Resources */ = {isa = PBXBuildFile; fileRef = EFAD749E207DF90D00590366 /* test4.MP4 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EFAD7481207DEFA600590366 /* ZYVideoEditor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZYVideoEditor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFAD7484207DEFA600590366 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EFAD7486207DEFA600590366 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EFAD7489207DEFA600590366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EFAD748B207DEFA800590366 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFAD748E207DEFA800590366 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EFAD7490207DEFA800590366 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EFAD7496207DEFB900590366 /* ZYVideoEditor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZYVideoEditor.swift; sourceTree = "<group>"; };
+		EFAD7498207DF07400590366 /* test2.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test2.MP4; sourceTree = "<group>"; };
+		EFAD7499207DF07500590366 /* test1.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test1.MP4; sourceTree = "<group>"; };
+		EFAD749C207DF07C00590366 /* test3.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test3.MP4; sourceTree = "<group>"; };
+		EFAD749E207DF90D00590366 /* test4.MP4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = test4.MP4; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFAD747E207DEFA600590366 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFAD7478207DEFA600590366 = {
+			isa = PBXGroup;
+			children = (
+				EFAD7483207DEFA600590366 /* ZYVideoEditor */,
+				EFAD7482207DEFA600590366 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFAD7482207DEFA600590366 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD7481207DEFA600590366 /* ZYVideoEditor.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFAD7483207DEFA600590366 /* ZYVideoEditor */ = {
+			isa = PBXGroup;
+			children = (
+				EFAD7499207DF07500590366 /* test1.MP4 */,
+				EFAD7498207DF07400590366 /* test2.MP4 */,
+				EFAD749C207DF07C00590366 /* test3.MP4 */,
+				EFAD749E207DF90D00590366 /* test4.MP4 */,
+				EFAD7496207DEFB900590366 /* ZYVideoEditor.swift */,
+				EFAD7484207DEFA600590366 /* AppDelegate.swift */,
+				EFAD7486207DEFA600590366 /* ViewController.swift */,
+				EFAD7488207DEFA600590366 /* Main.storyboard */,
+				EFAD748B207DEFA800590366 /* Assets.xcassets */,
+				EFAD748D207DEFA800590366 /* LaunchScreen.storyboard */,
+				EFAD7490207DEFA800590366 /* Info.plist */,
+			);
+			path = ZYVideoEditor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFAD7480207DEFA600590366 /* ZYVideoEditor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFAD7493207DEFA800590366 /* Build configuration list for PBXNativeTarget "ZYVideoEditor" */;
+			buildPhases = (
+				EFAD747D207DEFA600590366 /* Sources */,
+				EFAD747E207DEFA600590366 /* Frameworks */,
+				EFAD747F207DEFA600590366 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZYVideoEditor;
+			productName = ZYVideoEditor;
+			productReference = EFAD7481207DEFA600590366 /* ZYVideoEditor.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFAD7479207DEFA600590366 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = zhuyongqing;
+				TargetAttributes = {
+					EFAD7480207DEFA600590366 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = EFAD747C207DEFA600590366 /* Build configuration list for PBXProject "ZYVideoEditor" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFAD7478207DEFA600590366;
+			productRefGroup = EFAD7482207DEFA600590366 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFAD7480207DEFA600590366 /* ZYVideoEditor */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFAD747F207DEFA600590366 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAD749F207DF90D00590366 /* test4.MP4 in Resources */,
+				EFAD749A207DF07500590366 /* test2.MP4 in Resources */,
+				EFAD749B207DF07500590366 /* test1.MP4 in Resources */,
+				EFAD748F207DEFA800590366 /* LaunchScreen.storyboard in Resources */,
+				EFAD748C207DEFA800590366 /* Assets.xcassets in Resources */,
+				EFAD749D207DF07C00590366 /* test3.MP4 in Resources */,
+				EFAD748A207DEFA600590366 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFAD747D207DEFA600590366 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFAD7497207DEFB900590366 /* ZYVideoEditor.swift in Sources */,
+				EFAD7487207DEFA600590366 /* ViewController.swift in Sources */,
+				EFAD7485207DEFA600590366 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EFAD7488207DEFA600590366 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAD7489207DEFA600590366 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EFAD748D207DEFA800590366 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EFAD748E207DEFA800590366 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EFAD7491207DEFA800590366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFAD7492207DEFA800590366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EFAD7494207DEFA800590366 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D76KSJZQR;
+				INFOPLIST_FILE = ZYVideoEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ils.onesecond.ZYVideoEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EFAD7495207DEFA800590366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 5D76KSJZQR;
+				INFOPLIST_FILE = ZYVideoEditor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.ils.onesecond.ZYVideoEditor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFAD747C207DEFA600590366 /* Build configuration list for PBXProject "ZYVideoEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAD7491207DEFA800590366 /* Debug */,
+				EFAD7492207DEFA800590366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFAD7493207DEFA800590366 /* Build configuration list for PBXNativeTarget "ZYVideoEditor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFAD7494207DEFA800590366 /* Debug */,
+				EFAD7495207DEFA800590366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFAD7479207DEFA600590366 /* Project object */;
+}
